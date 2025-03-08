@@ -1,0 +1,21 @@
+.section {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Tw Cen MT";
+    background-color: #FDECEC;
+    padding: 40px 0px;
+}
+.section1 {
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    margin-right: 8px;
+}
+.value {
+    font-size: 20px;
+    font-weight: 700;
+}
+.name {
+    font-size: 14px;
+}

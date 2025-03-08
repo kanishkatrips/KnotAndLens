@@ -1,0 +1,22 @@
+.header {
+    background-color: #F3D8D8;
+    display: flex;
+    height: 72px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    font-family: "Arial";
+}
+.spacer {
+    flex-basis: 60%;
+  }
+.title {
+    flex-basis: 40%;
+    font-weight: 700;
+    font-size: 24px;
+}
+.contactus {
+    background-color: #FFFFFF;
+    padding: 8px 16px;
+    width: fit-content;
+}
