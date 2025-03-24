@@ -1,22 +1,22 @@
-import "./styles.scss"
+import "./styles.scss";
 const about = [
   {
-    logo: "A",
+    logo: "../../assets/happyCustomers.png",
     value: "250+",
     name: "Happy Customers",
   },
   {
-    logo: "B",
+    logo: "../../assets/experience.png",
     value: "10+",
     name: "Years of Experience",
   },
   {
-    logo: "C",
+    logo: "../../assets/DestinationCovered.png",
     value: "250+",
     name: "Destinations Covered",
   },
   {
-    logo: "D",
+    logo: "../../assets/weddingsCovered.png",
     value: "100+",
     name: "Weddings Covered",
   },
@@ -28,7 +28,9 @@ const Achievements = () => {
       {about.map((item) => {
         return (
           <div className="section1">
-            <div className="logo">{item.logo}</div>
+            <div className="icons">
+              <img src={item.logo} width={40} height={40}/>
+            </div>
             <div>
               <div className="value">{item.value}</div>
               <div className="name">{item.name}</div>

@@ -26,13 +26,16 @@ const footer = [
 
 const Footer = () => {
   return (
-    <div className="footer">
-      <div>
-        {footer.map((item) => {
-          return <div>{item.title}</div>;
-        })}
+    <div className="body">
+      <div className="footer">
+        <img src="../assets/logo2.png" width={100} height={100} />
+        <div>
+          {footer.map((item) => {
+            return <div>{item.title}</div>;
+          })}
+        </div>
+        <div className="socialmedia">Social Network logo</div>
       </div>
-      <div className="socialmedia">Social Network logo</div>
       <div className="divider"></div>
       <div className="trademark">{`@ ${new Date().getFullYear()} Knot&lens `}</div>
     </div>
